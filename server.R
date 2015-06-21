@@ -2,14 +2,15 @@
 #### Calculator Fun - server.R ####
 ####################################
 
+
 library(shiny)
 library(datasets)
 
 
 
 calcValue <- function(value1, value2, operator) {
-        ## Parse the arithmetic operator to perform calculations
-        ## In case of 1/x use the Value 1 as x and ignore Value 2
+        ## Order the operator to perform calculations
+        ## In case of 1/x use the first value as x and ignore second value
         if (operator == "%") {
                 operator <- '*'
                 value1 <- value1 / 100
