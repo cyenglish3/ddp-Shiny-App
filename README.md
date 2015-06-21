@@ -5,5 +5,5 @@ This repo contains the supporting documentation and files for a simple shiny app
 
 1. ui.R used to generate the shiny app
 2. server.R second file needed to generate the shiny app
-3. ddpCalculator.md is the Markdown file that generates the R Presenter presentation describing the shiny app
-4. ddpCalculator.html is a HTML compiled from the .md file, and generates the presentation, which is here. It could not be uploaded to RPubs.
+3. index.md is the Markdown file that generates the R Presenter presentation describing the shiny app
+4. index.html is a HTML compiled from the .md file, and generates the presentation, which is here. It could not be uploaded to RPubs.
