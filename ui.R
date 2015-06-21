@@ -45,7 +45,7 @@ with user-entered values by pressing the 'CALCULATE' button in the left navigati
                   "SourceCode"), p("On GITHUB"),
                 
                 a(href="http://rpubs.com/rparida/DDP_PA", 
-                  "Course Presentation"), p("On ghPages"),
+                  "Course Presentation"), p("On ghPages")
                 
                 
                 

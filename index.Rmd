@@ -72,11 +72,11 @@ Results = 25
 
 ## App Code Sources and Links
 
-Try out the application on the RStudio shinyapps.io website:
-https://dnafrance.shinyapps.io/devdatapdt/
+Give the application a whirl on the RStudio shinyapps.io website:
+https://cyenglish3.shinyapps.io/ddp-Shiny-App
 
 To see the code for the application, visit github website:
-https://github.com/dnafrance/DevDataPdt
+https://github.com/cyenglish3/ddp-Shiny-App
 
 
 Repo Files include:
