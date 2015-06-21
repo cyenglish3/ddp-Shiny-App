@@ -1,0 +1,88 @@
+---
+title       : Calculator Fun
+subtitle    : 
+author      : Crystal E.
+job         : Developing Data Products
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+url:
+  lib: ../../libraries
+  assets: ../../assets
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+## Introduction
+
+This simple calculator application was designed for the 
+Developing Data Products course in the Data Science Specialization on Coursera. 
+The application allows a front-end user to perform a simple calculation 
+with user-entered values.
+
+### Course project requirements
+
+The course project requirements for this application are:
+
+Some form of input (widget: textbox, radio button, checkbox, .)
+Some operation on the ui input in sever.R
+Some reactive output displayed as a result of server calculations
+Documentation guide for user and include at the Shiny website.
+
+
+--- .class #id
+
+
+
+## App Widgets Used
+
+This app uses three primary widgets:
+
+numericInput: to obtain the user's input values
+
+radioButtons: for the operation types
+
+submitButton: to perform the calculation function
+
+
+--- .class #id
+
+
+
+## App Operations Sampling
+
+The calucaltor uses simple arithmetic coding:
+
+A function(input, output) takes the input from the user and produces
+an output result, which is then rendered and printed to the interface.
+
+Value #1 = 5
+
+Operation selected = *
+
+Value #2 = 5
+                
+Results = 25
+
+--- .class #id
+
+
+
+## App Code Sources and Links
+
+Try out the application on the RStudio shinyapps.io website:
+https://dnafrance.shinyapps.io/devdatapdt/
+
+To see the code for the application, visit github website:
+https://github.com/dnafrance/DevDataPdt
+
+
+Repo Files include:
+
+server.R
+
+ui.R
+
+
